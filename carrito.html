@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botón para ver el carrito -->
+    <div>
+        <span id="carrito-count">0</span>
+        <button onclick="verCarrito()">Ver Carrito</button>
+    </div>
+
+    <!-- Popup del carrito -->
+    <div id="carrito-popup">
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total-carrito">0.00</span></p>
+        <button onclick="cerrarCarrito()">Cerrar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
